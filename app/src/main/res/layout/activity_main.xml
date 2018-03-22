@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8sp"
+    tools:context="com.example.pranavsharma.lec_13.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8sp"
+        >
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="GO"
+            android:id="@+id/btnGO"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:id="@+id/PokemonImage"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PokemonName"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="NAME"
+        />
+
+</LinearLayout>
